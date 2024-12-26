@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="ZJBFW2rI38xVL-WH7tP1">
+    <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0HHSv9F1fBcF0dqXVQZc-1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="810" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="0HHSv9F1fBcF0dqXVQZc-3" value="Should be sticky, when the page is scrolled from mouse wheel or gesture." style="whiteSpace=wrap;html=1;fillColor=#FF99CC;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="810" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0HHSv9F1fBcF0dqXVQZc-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AFF42;" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="810" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="0HHSv9F1fBcF0dqXVQZc-5" value="" style="whiteSpace=wrap;html=1;fillColor=#B266FF;" vertex="1" parent="1">
+          <mxGeometry x="111" y="120" width="310" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="0HHSv9F1fBcF0dqXVQZc-6" value="" style="whiteSpace=wrap;html=1;fillColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="432" y="120" width="310" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="0HHSv9F1fBcF0dqXVQZc-9" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Welcome to this Sigma Web Development Express&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=21;" vertex="1" parent="1">
+          <mxGeometry x="35" y="500" width="780" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0HHSv9F1fBcF0dqXVQZc-10" value="FIXED&lt;div&gt;HERE&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="760" y="410" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0HHSv9F1fBcF0dqXVQZc-11" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="820" width="810" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing units</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-size: 12px;
+        }
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aquamarine;
+        }
+        .container {
+            /* font-size: 20px; */
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            /* height: 80vh; */
+            min-height: 80vh;
+            margin: 23px auto;
+            background-color: aquamarine;   
+        }
+        .container div{
+            font-size: 2rem;
+            width: 50%;                                /*that much percentage of its parent*/
+            border: 2px solid red;
+        }
+        .container div div {
+            border: 2px solid blue;
+        }
+        .mycont {
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: black;
+            font-size: 22px;
+            width: 80vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        This is a box
+    </div>
+
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aut rem officiis voluptates obcaecati incidunt at ipsam maiores, laudantium autem debitis aliquid aspernatur sed? Quis nisi qui corporis enim at voluptas officia quidem dolorem exercitationem, odio quae cupiditate nemo reiciendis sapiente sequi ullam facilis, consequatur adipisci totam ducimus alias numquam a. Nihil adipisci cumque ipsa natus?
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda aliquid odit sunt itaque sit cumque pariatur repellat! Non deleniti animi, laborum aspernatur excepturi accusamus id facere nostrum a porro mollitia quos iste in commodi vel, vitae expedita error! Totam deleniti voluptatibus consectetur harum consequuntur quisquam nemo voluptas corporis facere enim.
+            </div>
+        </div>
+    </div>
+    <div class="mycont">
+        I am another container.
+    </div>
+</body>
+</html>

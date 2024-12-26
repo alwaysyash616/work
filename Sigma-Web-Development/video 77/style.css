@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    border: 2px solid black;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin: 5px;
+}
+
+.image img {
+    width: 200px;
+}
+
+.text h1,
+p {
+    padding: 2px 0;
+}
+.image{
+    position: relative;
+}
+.capsule{
+    position: absolute;
+    z-index: 10;
+    bottom: 4px;
+    right: 5px;
+    color: white;
+    background-color: rgb(30, 24, 24);
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+}

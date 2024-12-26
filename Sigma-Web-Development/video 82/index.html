@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Js</title>
+</head>
+
+<body>
+    <!-- IIFE -->
+    <!-- Destructuring -->
+    <!-- Spread Syntax -->
+    <!-- Local, Global, Block space -->
+    <!-- Hosting -->
+
+    <script>
+        function sum(a, b, c) {
+            return a + b + c;
+        }
+        // let x,y = [4,5];
+        // console.log(x,y);
+        // let [x, y] = [4, 5];
+        // console.log(x, y);
+
+        // let [p, q] = [4, 5, 7];
+        // console.log(p, q);
+
+        // let [a, b, ...rest] = [1, 5, 7, 8, 9, 10];
+        // console.log(a, b, rest);
+
+        // let obj = {
+        //     a: 1,
+        //     b: 2,
+        //     c: 3
+        // }
+
+        // very important for react
+        // let { a, b } = obj;
+        // console.log(a, b);
+
+        let arr = [4, 6, 7];
+        // console.log(arr[0]+arr[1]+arr[2]);
+        // console.log(sum(arr[0],arr[1],arr[2]));
+        // console.log(sum(...arr));                           // Spread Operator
+
+        let obj = { ...arr };
+        console.log(obj);
+
+
+        var a1 = 6;              // var a1 //goes on top, not the value 6
+                                // a1 hosted at the top of the block
+        // similarly functions are also hosted at the top to block
+        // functions not hosted at top when they are referenced by a const reference
+
+        
+    </script>
+</body>
+
+</html>

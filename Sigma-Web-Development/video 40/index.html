@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: sticky;
+            top: 0;
+}
+header p{
+    font-family: "Montserrat", sans-serif;
+            font-size: 50px;
+            text-align: center;
+            position: relative;
+            top: 48px;
+}
+        nav {
+            background-color: #FF99CC;
+            height: 150px;
+
+        }
+        main{
+            background-color: slategray;
+            padding: 0 0 1px 0;
+        }
+
+        .logo {
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 50px;
+            position: fixed;
+            bottom: 20px;
+            right: 25px;
+            background-color: teal;
+        }
+
+        .container {
+            background-color: #9AFF42;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .box {
+            display: inline-block;
+            height: 700px;
+            width: 40%;
+            margin: 0 30px;
+        }
+
+        .box:nth-child(1) {
+            background-color: #B266FF;
+        }
+
+        .box:nth-child(2) {
+            background-color: #EA6B66;
+        }
+
+        .messege {
+            font-family: "Montserrat", sans-serif;
+            font-size: 50px;
+            background-color: tomato;
+            color: azure;
+            padding: 60px 90px;
+            margin: 100px 180px;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 40px;
+        }
+        footer{
+            height: 200px;
+        }
+
+        footer p {
+            font-family: "Montserrat", sans-serif;
+            font-size: 50px;
+            text-align: center;
+            position: relative;
+            top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p>HEADER</p>
+            <div class="logo"></div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="messege">
+            Welcome to this Sigma Web Development Express
+        </div>
+    </main>
+    <footer>
+        <p>FOOTER</p>
+    </footer>
+</body>
+
+</html>

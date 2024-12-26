@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Multicolor website</title>
+    <style>
+        /*we can add more then one style tag*/
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <style>
+        /* :root{
+            --primary-color: #cf3b3b;
+            --text-color: white;
+            --secondrycolor: #f57c7c;
+        } */
+        /* :root{
+            --primary-color: #73a331;
+            --text-color: white;
+            --secondrycolor: #b8fea8;
+        } */
+        /* :root{
+            --primary-color: #3931a3;
+            --text-color: white;
+            --secondrycolor: #9ba6d6;
+        } */
+        :root{
+            --primary-color: #b29201;
+            --text-color: white;
+            --secondrycolor: #c0c385;
+        }
+        body{
+            background-color: var(--secondrycolor);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: var(--primary-color);
+            padding: 12px 0;
+
+        }
+
+        ul li {
+            list-style: none;
+            display: inline;
+            /*not a good approach to do so*/
+            padding: 23px;
+            font-weight: bolder;
+        }
+        ul li a{
+            color: var(--text-color);
+            text-decoration: none;          
+            /*here we used it for removing underline*/
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

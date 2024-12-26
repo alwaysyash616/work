@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root {          /*root scope declaration*/
+            --color: rgb(73, 73, 202);
+            --seccolor: rgb(114, 114, 246);
+            --defpad: 23px;
+            --defop: 0.4;
+        }
+        /*Now, I can change color everywhere where these are used --color and --seccolor*/
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            opacity: var(--defop);
+            list-style: none;
+            padding: var(--defpad);
+            border: 2px solid var(--seccolor);
+        }
+        ul li:first-child{
+            --color: rgb(202, 111, 0);/*Local Variable*/
+            background-color: var(--color, hotpink);
+        }
+
+        ul {
+            display: flex;
+        }
+
+        .nav {
+            background-color: var(--color);
+        }
+
+        .container {
+            background: var(--seccolor);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, enim nemo corrupti eos fugiat a obcaecati ea!
+        Cumque ut asperiores a officiis quaerat quasi accusantium expedita nostrum optio sapiente. Dignissimos accusamus
+        aliquam commodi tempora molestiae at aperiam hic, eum consectetur quia vitae numquam sapiente distinctio.
+    </div>
+</body>
+
+</html>

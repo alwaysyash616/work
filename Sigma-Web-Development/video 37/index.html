@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            display: flex;
+            height: 80vh;
+            /* justify-content: center; */
+            align-items: center;
+
+            /*70% of the time we will do this much of work with FLEXBOX*/
+
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row; BY DEFAULT*/
+            /* flex-direction: row-reverse; */
+
+            /* flex-wrap: wrap; */
+
+            /* align-content: flex-start; */
+            /* there is no justify-items in FLEXBOX */
+
+            /* flex-wrap: wrap-reverse; */
+            /* flex-wrap: nowrap; BY DEFAULT */
+
+            /* flex-flow: row wrap; */
+
+            /* gap: 30px; */
+            /* row-gap: 40px;
+            column-gap: 10px; */
+            gap: 40px 10px;
+        }
+
+        .item {
+            /* flex-grow: 1; */
+            /*all items will take equal space covering whole width*/
+            /* by default flex-grow is 0 */
+            height: 92px;
+            width: 92px;
+            border: 2px solid black;
+            /* margin: 4px; */
+            background-color: rgb(130, 238, 180);
+        }
+        
+        .item1{
+            /* flex-grow: 2; */
+            flex-shrink: 2;
+            align-self: flex-end;
+        }
+        .item6{
+            align-self: flex-start;
+        }
+
+        /* default order is 0 */
+        .order-1 {
+            order: 1;
+        }
+
+        .order-2 {
+            order: 2;
+        }
+
+        .order-3 {
+            order: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="item item1">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item order-1">4</div>
+            <div class="item">5</div>
+            <div class="item item6">6</div>
+        
+            <div class="item">9</div>
+      
+            <div class="item">5</div>
+            <div class="item order-1">66</div>
+        
+        </div>
+    </main>
+</body>
+
+</html>

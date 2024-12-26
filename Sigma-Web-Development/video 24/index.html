@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outline shadow</title>
+    <style>
+        .box {
+            border: 2px solid black;
+            padding: 34px;
+            box-shadow: 5px 15px 5px #6ce14f;
+            text-shadow: 2px 2px 4px #888;
+        }
+        .text-shadow{
+            text-shadow: 2px 2px 4px #888;
+            outline: 2px solid black;                 
+            /*outline does not take space NOT A PART OF BOX MODEL but border is part of Box Model*/
+            border: 2px solid green;
+            outline-offset: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        I am a box
+    </div>
+    <p class="text-shadow">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo asperiores quod quasi dolor deserunt atque quia nulla sequi obcaecati mollitia? Dolores, incidunt velit sed facere provident pariatur. Voluptate numquam eos repellendus quisquam magnam.
+    </p>
+</body>
+
+</html>
